@@ -13,9 +13,9 @@ public class lab03 {
 
     int x=100,y=100;
     public lab03() {
-        jFrame=new JFrame("Title");
+        jFrame=new JFrame("Student Form");
         jFrame.setLayout(null);
-        l=new JLabel("asdf");
+        l=new JLabel("Name");
         l.setBounds(50,50,300,20);
         cb1=new JTextField();
         cb1.setBounds(x,y,150,20);
